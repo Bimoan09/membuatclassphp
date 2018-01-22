@@ -1,0 +1,7 @@
+<?php
+$tanggalawal = new DateTime("1995-09-09");
+$tanggalakhir = new DateTime("2018-01-22");
+$interval = $tanggalmulai->diff($tanggalakhir);
+echo "Difference : " . $interval->tahun . " tahun, " . $interval->bulan." bulan, ".$interval->d." hari ";
+?>
+
